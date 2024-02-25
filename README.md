@@ -14,8 +14,9 @@ The environment is designed with a high-risk, high-reward cliff edge that agents
 
 In this project, I implemented and compared two algorithms:
 
-`*` Q-Learning: A form of model-free, off-policy agent.
-`*` Expected Sarsa: A variation of the Sarsa algorithm that, like Q-Learning, is model-free but operates on-policy.
+`-` Q-Learning: A form of model-free, off-policy agent.
+
+`-` Expected Sarsa: A variation of the Sarsa algorithm that, like Q-Learning, is model-free but operates on-policy.
 
 Both algorithms were tasked with learning policies to navigate through the cliff world, with the aim of exploring their differences in terms of risk-taking and overall efficiency.
 
