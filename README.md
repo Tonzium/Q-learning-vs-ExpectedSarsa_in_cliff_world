@@ -26,15 +26,17 @@ The project involved running multiple simulations with both algorithms, using a 
 
 To analyze the behavior and performance of each algorithm, I focused on two main aspects:
 
-`*` Heatmaps of State Visits: Visual representations showing the frequency of visits to each state in the environment. These heatmaps provide insight into the exploration patterns and risk-taking behavior of each algorithm.
-`*` Sum of rewards: The sum of rewards obtained over all episodes, serving as a measure of overall efficiency and effectiveness.
+`-` Heatmaps of State Visits: Visual representations showing the frequency of visits to each state in the environment. These heatmaps provide insight into the exploration patterns and risk-taking behavior of each algorithm.
+
+`-` Sum of rewards: The sum of rewards obtained over all episodes, serving as a measure of overall efficiency and effectiveness.
 
 ## Findings
 
 The results revealed distinct differences in the strategies adopted by Q-Learning and Expected Sarsa:
 
-`*` Q-Learning: This algorithm demonstrated a more risk-taking approach, often walking close to the cliff edge to minimize the path length. However, this strategy also led to occasional falls due to the exploratory actions, impacting its overall reliability.
-`*` Expected Sarsa: In contrast, Expected Sarsa opted for safer, longer paths away from the cliff. This conservative strategy almost never resulted in falling off the cliff, showcasing its reliability despite potentially higher step counts.
+`-` Q-Learning: This algorithm demonstrated a more risk-taking approach, often walking close to the cliff edge to minimize the path length. However, this strategy also led to occasional falls due to the exploratory actions, impacting its overall reliability.
+
+`-` Expected Sarsa: In contrast, Expected Sarsa opted for safer, longer paths away from the cliff. This conservative strategy almost never resulted in falling off the cliff, showcasing its reliability despite potentially higher step counts.
 
 ## Conclusion
 
