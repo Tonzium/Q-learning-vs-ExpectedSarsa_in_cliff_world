@@ -38,6 +38,8 @@ The results revealed distinct differences in the strategies adopted by Q-Learnin
 
 `-` Expected Sarsa: In contrast, Expected Sarsa opted for safer, longer paths away from the cliff. This conservative strategy almost never resulted in falling off the cliff, showcasing its reliability despite potentially higher step counts.
 
+![Example Image](Heatmap_100_200_0.1_1.0.png)
+
 ## Conclusion
 
 The comparison between Q-Learning and Expected Sarsa in the cliff world environment highlights a fundamental trade-off between risk and safety in reinforcement learning algorithms. While Q-Learning's risk-taking can lead to more efficient paths, it also increases the potential for costly mistakes. Expected Sarsa's conservative approach, although potentially less efficient, offers greater reliability by avoiding high-risk situations.
